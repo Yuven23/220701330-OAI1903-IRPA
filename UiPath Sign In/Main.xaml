@@ -1,0 +1,201 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,3645.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,3580.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="545.6,3468.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="a" />
+        <Variable x:TypeArguments="x:String" Name="b" />
+        <Variable x:TypeArguments="x:String" Name="c" />
+        <Variable x:TypeArguments="x:String" Name="d" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InputDialog Label="{x:Null}" Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Title="Display name">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[a]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <ui:InputDialog Label="{x:Null}" Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Title="Country">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[b]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <ui:InputDialog Label="{x:Null}" Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Title="BUSINESS NAME">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[c]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <ui:InputDialog Label="{x:Null}" Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Title="JOB TITLE">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[d]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Download UiPath Studio Academic Alliance Edition | UiPath - Google Chrome" sap:VirtualizedContainerService.HintSize="483.2,2230.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="94972855-5e5e-44c2-9954-1832dfa392a2" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1899.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Try UiPath Free'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="94972855-5e5e-44c2-9954-1832dfa392a2" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="1649, 255, 209, 60" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Try UiPath Free'" FullSelectorArgument="&lt;ctrl name='Download UiPath Studio Academic Alliance Edition | UiPath' role='document' /&gt;&lt;ctrl name='Try UiPath Free' role='link' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Download UiPath Studio Academic Alliance Edition | UiPath' role='document' /&gt;&lt;ctrl name='Try UiPath Free' role='link' automationid='' check:text='Try UiPath Free' /&gt;" Guid="1a740929-58d6-4327-a750-19b88f405d2c" InformativeScreenshot="4917b601797cae9edc05ad2844a6a127.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Download UiPath Studio Academic Alliance Edition | UiPath - Goog*' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'YUVEN SENTHIL'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="94972855-5e5e-44c2-9954-1832dfa392a2" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="994, 377, 450, 51" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'YUVEN SENTHIL'" FullSelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Display Name' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Display Name' role='editable text' automationid='' /&gt;" Guid="3c3c689e-1fda-40be-929a-e9dabc3eeb91" InformativeScreenshot="ef8aad9a00062630b73bd4f87f984fd0.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'YUVEN SENTHIL'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="94972855-5e5e-44c2-9954-1832dfa392a2" Text="[a]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="994, 377, 450, 51" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'YUVEN SENTHIL'" FullSelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Display Name' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Display Name' role='editable text' automationid='' /&gt;" Guid="ed47b260-5f2e-412e-8cfa-3a9de4f27897" InformativeScreenshot="ef8aad9a00062630b73bd4f87f984fd0.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'menu button'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="94972855-5e5e-44c2-9954-1832dfa392a2" Text="[b]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="991, 497, 456, 51" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'menu button'" FullSelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Country/Region ​' role='menu button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Country/Region ​' role='menu button' automationid='' /&gt;" Guid="ff6b6d9e-6686-42ea-8ba8-60d1fa727360" InformativeScreenshot="f0ac0eb1626fd14f598a6e6b616c903a.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="94972855-5e5e-44c2-9954-1832dfa392a2" Text="[c]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="991, 617, 456, 51" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'editable text'" FullSelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Business/Organization Name' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Business/Organization Name' role='editable text' automationid='' /&gt;" Guid="6a1b563d-0af8-492a-869b-ed87cdbb3bb5" InformativeScreenshot="d0727adecfab8602ebe38efd2f5eb74b.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text Job Title'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="HardwareEvents" ScopeIdentifier="94972855-5e5e-44c2-9954-1832dfa392a2" Text="[d]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="991, 737, 456, 51" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'editable text Job Title'" FullSelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Job Title' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Job Title' role='editable text' automationid='' /&gt;" Guid="a84d1213-5cff-4dfb-806a-b25401eac921" InformativeScreenshot="33af019b4bb8da389ae5ac545d0ae7ed.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Checkbox'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="94972855-5e5e-44c2-9954-1832dfa392a2" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="991, 836, 53, 54" DesignTimeScaleFactor="1.25" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Send me information about UiPath products, events, and promotion*' role='check box' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Send me information about UiPath products, events, and promotion*' role='check box' automationid='' /&gt;" Guid="1d4d5267-17e1-4d3d-a8ac-2be22b4245b0" InformativeScreenshot="8dfe487e131b9dcc1fe3b6b41c03dde3.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="94972855-5e5e-44c2-9954-1832dfa392a2" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="991, 917, 456, 51" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Next'" FullSelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Next' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='UiPath' role='document' /&gt;&lt;ctrl name='Next' role='push button' automationid='' check:text='Next' /&gt;" Guid="abd24070-22f5-4f11-80b2-fa0c632b06e3" InformativeScreenshot="eab07fe766a4b6b75361acbd7d5c997b.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='UiPath - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-9, -9, 1938, 1098" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" IconBase64="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" InformativeScreenshot="e7931f48ce4cb2b2992f7ef6632ccbc0.png" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Download UiPath Studio Academic Alliance Edition | UiPath - Goog*' /&gt;" Title="Download UiPath Studio Academic Alliance Edition | UiPath - Goog*" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
